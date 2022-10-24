@@ -324,6 +324,8 @@ Introducción a lenguaje de marcas “Markdown”, usado por GitHub
     Si lo comparamos con un procesador de textos, podemos pensar en un párrafo como un elemento de bloque y una palabra enfatizada en negrita como un elemento de línea.
 
 4. Etiquetas básicas HTML
+
+![HTML](https://github.com/MarioPalamari/ASIX1_M4UF1A3_Documentaci-n_MarioPalamari/blob/main/img/5.png)
     
     - Encabezados ("<h1>"..."<h6>") Permiten especificar que ciertas partes del contenido son encabezados, o subencabezados del contenido. Son elementos de bloque.
 
