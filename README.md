@@ -49,7 +49,7 @@
     
     Inicializamos el repositorio dentro de la carpeta raiz del mismo
 
-    - **git remote add origin https://github.com/AinaOrozcoGonzalez/BORRAR.git.**
+    - **git remote add origin**
     
     Una vez situados en la carpeta, añadimos como origen de ese repositorio al repositorio vacío de GitHub.
    
