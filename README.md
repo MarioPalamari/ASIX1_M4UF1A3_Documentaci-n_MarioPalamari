@@ -325,10 +325,10 @@ Introducción a lenguaje de marcas “Markdown”, usado por GitHub
 
 4. Etiquetas básicas HTML
     
-    - Encabezados (<h1>...<h6>) Permiten especificar que ciertas partes del contenido son encabezados, o subencabezados del contenido. Son elementos de bloque.
+    - Encabezados ("<h1>"..."<h6>") Permiten especificar que ciertas partes del contenido son encabezados, o subencabezados del contenido. Son elementos de bloque.
 
 
-    - Párrafos (<p>). Se utilizan para encerrar párrafos de texto, entendiendo como párrafo un conjunto de frases relacionadas entre sí. Son elementos de bloque.
+    - Párrafos "(<p>)". Se utilizan para encerrar párrafos de texto, entendiendo como párrafo un conjunto de frases relacionadas entre sí. Son elementos de bloque.
 
     - Listas:
 
