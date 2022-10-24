@@ -96,7 +96,7 @@ El comando git pull hará la inversa de **git push**, es decir, “bajará” lo
 
     Escogemos a qué rama asociar “pages” (por defecto “main”) y a qué carpeta (por defecto “root”) y aplicamos configuración con “Save”. Una vez procesado, nos muestra la URL del repositorio.
 
-    ![](https://github.com/ainaorozcogonzalez/UF1-A3._Documentaci-n-MP4UF1_-apuntes-_AinaOrozcoGonzalez/blob/main/img/REP4.png?raw=true)
+    ![](https://github.com/MarioPalamari/ASIX1_M4UF1A3_Documentaci-n_MarioPalamari/blob/main/img/3.png)
 
 
 # Markdown
@@ -182,13 +182,13 @@ Introducción a lenguaje de marcas “Markdown”, usado por GitHub
         
         Inline-style: 
         
-        ![alt text](https://github.com/MarioPalamari/ASIX1_M4UF1A3_Documentaci-n_MarioPalamari/blob/main/img/dog.ico "Título opcional de la imagen")
+        ![alt text](https://github.com/MarioPalamari/ASIX1_M4UF1A3_Documentaci-n_MarioPalamari/blob/main/img/4.png "Título opcional de la imagen")
 
         Reference-style: 
         
         ![alt text][logo]
 
-        [logo]: (https://github.com/MarioPalamari/ASIX1_M4UF1A3_Documentaci-n_MarioPalamari/blob/main/img/dog.ico) "Logo Title Text 2"
+        [logo]: (https://github.com/MarioPalamari/ASIX1_M4UF1A3_Documentaci-n_MarioPalamari/blob/main/img/dog.ico "Logo Title Text 2")
 
     * Tablas:
 
