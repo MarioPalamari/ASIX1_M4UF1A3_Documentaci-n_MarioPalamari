@@ -182,13 +182,13 @@ Introducción a lenguaje de marcas “Markdown”, usado por GitHub
         
         Inline-style: 
         
-        ![alt text]([https://github.com/ainaorozcogonzalez/UF1-A3._Documentaci-n-MP4UF1_-apuntes-_AinaOrozcoGonzalez/blob/main/img/icono.png?raw=true](https://github.com/MarioPalamari/ASIX1_M4UF1A3_Documentaci-n_MarioPalamari/blob/main/img/dog.ico "Título opcional de la imagen")
+        ![alt text](https://github.com/MarioPalamari/ASIX1_M4UF1A3_Documentaci-n_MarioPalamari/blob/main/img/dog.ico "Título opcional de la imagen")
 
         Reference-style: 
         
         ![alt text][logo]
 
-        [logo]: https://github.com/ainaorozcogonzalez/UF1-A3._Documentaci-n-MP4UF1_-apuntes-_AinaOrozcoGonzalez/blob/main/img/icono.png?raw=true "Logo Title Text 2"
+        [logo]: (https://github.com/MarioPalamari/ASIX1_M4UF1A3_Documentaci-n_MarioPalamari/blob/main/img/dog.ico) "Logo Title Text 2"
 
     * Tablas:
 
