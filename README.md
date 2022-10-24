@@ -188,7 +188,7 @@ Introducción a lenguaje de marcas “Markdown”, usado por GitHub
         
         ![alt text][logo]
 
-        [logo]: (https://github.com/MarioPalamari/ASIX1_M4UF1A3_Documentaci-n_MarioPalamari/blob/main/img/dog.ico "Logo Title Text 2")
+        [logo]: (https://github.com/MarioPalamari/ASIX1_M4UF1A3_Documentaci-n_MarioPalamari/blob/main/img/dog.ico)
 
     * Tablas:
 
