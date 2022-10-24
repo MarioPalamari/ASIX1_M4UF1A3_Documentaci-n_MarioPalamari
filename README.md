@@ -358,7 +358,7 @@ Introducción a lenguaje de marcas “Markdown”, usado por GitHub
      - Sangrado del código. Las etiquetas HTML se abren y se cierran. El navegador web no interpreta ni saltos de página ni tabuladores pero para nuestro análisis del código necesitamos ver una estructura coherente.
 
         <div>
-        <p>Contenido del párrafo <a href="http://web.org">enlace externo</a></p>
+        <p>Contenido del párrafo <a href="http://klk.com">enlace externo</a></p>
         </div>
 
         Como se puede ver, los elementos de línea (<a> en el ejemplo) no se sangran
