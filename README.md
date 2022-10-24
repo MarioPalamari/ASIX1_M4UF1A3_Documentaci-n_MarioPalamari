@@ -4,7 +4,7 @@
 
 ## Como crear un repositorio
  1. Crear un repositorio nuevo
-![Imagen de como crear un repositorio](https://github.com/ainaorozcogonzalez/UF1-A3._Documentaci-n-MP4UF1_-apuntes-_AinaOrozcoGonzalez/blob/main/img/rep1.png?raw=true)
+![Imagen de como crear un repositorio](https://github.com/MarioPalamari/ASIX1_M4UF1A3_Documentaci-n_MarioPalamari/blob/main/img/1.png)
  2. Como configurar un repositorio nuevo.
 
     En “repository name” ponemos el nombre que queremos que tenga nuestro nuevo repositorio.
