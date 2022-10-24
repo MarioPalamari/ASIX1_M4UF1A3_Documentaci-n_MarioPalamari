@@ -9,11 +9,11 @@
 
     En “repository name” ponemos el nombre que queremos que tenga nuestro nuevo repositorio.
 
-    Hemos de elegir si queremos que el repositorio sea público o privado. Si queremos activar GitHub pages tenemos que tener el repositorio en público para poder publicar el repositorio.
+    Tenemos que elegir si queremos que el repositorio sea público o privado. Si queremos activar GitHub pages tenemos que tener el repositorio en público para poder publicar el repositorio.
 
     Marcamos la opción de creación del archivo README o no, dependiendo de:
 * __Si creamos el archivo README, el repositorio se crea e inicializa automáticamente en GitHub__.
-* __En caso de que no se marque el archivo README.md, el repositorio en GitHub se creará vacío y no inicializado__. Eso se usará sobre todo para crear un repositorio nuevo desde cero en local (GIT) y luego sincronizarlo o importar un repositorio local que tengamos creado. Una vez creado, nos aparecerán los comandos que hemos de utilizar dependiendo de lo que queramos hacer con él mediante comandos de CLI:
+* __En caso de que no se marque el archivo README.md, el repositorio en GitHub se creará vacío y no inicializado__. Eso se usará sobre todo para crear un repositorio nuevo desde cero en local (GIT) y luego sincronizarlo o importar un repositorio local que tengamos creado. Una vez creado, nos aparecerán los comandos que tenemos que utilizar dependiendo de lo que queramos hacer con él mediante comandos de CLI:
     
     a) **Clonado y trabajo en local (GIT) de un repositorio de GitHub inicializado (activo).**
     
@@ -69,19 +69,20 @@
 
     Subimos los cambios al repositorio remoto y rama indicadas en los puntos anteriores.
 
-El comando git pull hará la inversa de **git push**, es decir, “bajará” los cambios que hayamos hecho directamente en el repositorio GutHub (en la web)
+El comando git pull hará la inversa de **git push**, es decir, “bajará” los cambios que hayamos hecho directamente en el repositorio GitHub (en la web)
 
 3. Importar repositorio ya existente en GitHub.
 
     Vamos al repositorio a importar (Code) y copiamos su URL:
 
-    ![](https://github.com/ainaorozcogonzalez/UF1-A3._Documentaci-n-MP4UF1_-apuntes-_AinaOrozcoGonzalez/blob/main/img/rep2.png?raw=true)
+    ![](https://github.com/MarioPalamari/ASIX1_M4UF1A3_Documentaci-n_MarioPalamari/blob/main/img/2.png)
 
     En repositorios, vamos a crear un repositorio nuevo:
 
     Y vamos a la opción “import a repository” de la cabecera:
 
-    ![](https://github.com/ainaorozcogonzalez/UF1-A3._Documentaci-n-MP4UF1_-apuntes-_AinaOrozcoGonzalez/blob/main/img/rep3.PNG?raw=true)
+    ![](https://github.com/MarioPalamari/ASIX1_M4UF1A3_Documentaci-n_MarioPalamari/blob/main/img/3.png)
+
 
     En “old repository’s clone URL” pegamos la URL del repositorio a importar mientras que en “Repository Name” ponemos el nombre que queremos que tenga nuestro repositorio clonado.
 
@@ -181,7 +182,7 @@ Introducción a lenguaje de marcas “Markdown”, usado por GitHub
         
         Inline-style: 
         
-        ![alt text](https://github.com/ainaorozcogonzalez/UF1-A3._Documentaci-n-MP4UF1_-apuntes-_AinaOrozcoGonzalez/blob/main/img/icono.png?raw=true "Título opcional de la imagen")
+        ![alt text]([https://github.com/ainaorozcogonzalez/UF1-A3._Documentaci-n-MP4UF1_-apuntes-_AinaOrozcoGonzalez/blob/main/img/icono.png?raw=true](https://github.com/MarioPalamari/ASIX1_M4UF1A3_Documentaci-n_MarioPalamari/blob/main/img/dog.ico "Título opcional de la imagen")
 
         Reference-style: 
         
