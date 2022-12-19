@@ -300,26 +300,26 @@ Introducción a lenguaje de marcas “Markdown”, usado por GitHub
         
         Incluye cosas como:
 
-        - Palabras clave (keywords)
+      - Palabras clave (keywords)
 
-        - Una descripción de la página que quieres que aparezca en resultados de búsquedas
+      - Una descripción de la página que quieres que aparezca en resultados de búsquedas
 
-        - Código CSS para dar estilo al contenido
+      - Código CSS para dar estilo al contenido
 
-        - Declaraciones del juego de caracteres: < meta />— < meta>. Añade metainformación a la página. Podemos poner varias marcas < meta> que dan información no visible del documento. En el caso del ejemplo, este elemento establece el juego de caracteres que tu documento usará en utf-8, que incluye casi todos los caracteres de todos los idiomas humanos. Básicamente, puede manejar cualquier contenido de texto que puedas incluir. No hay razón para no establecerlo, y puede evitar problemas en el futuro. 
+      - Declaraciones del juego de caracteres: < meta />— < meta>. Añade metainformación a la página. Podemos poner varias marcas < meta> que dan información no visible del documento. En el caso del ejemplo, este elemento establece el juego de caracteres que tu documento usará en utf-8, que incluye casi todos los caracteres de todos los idiomas humanos. Básicamente, puede manejar cualquier contenido de texto que puedas incluir. No hay razón para no establecerlo, y puede evitar problemas en el futuro. 
 
-        - El título de la página: < title></ title> — el elemento < title> establece el título de tu página, que es el título que aparece en la pestaña o en la barra de título del navegador cuando la página es cargada, y se usa para describir la página cuando es añadida a los marcadores o como favorita.
+      - El título de la página: < title></ title> — el elemento < title> establece el título de tu página, que es el título que aparece en la pestaña o en la barra de título del navegador cuando la página es cargada, y se usa para describir la página cuando es añadida a los marcadores o como favorita.
 
-        - El icono (llamado favicon) de la página. Podemos usar la etiqueta < link> y el atributo rel="icon" para agregar un favicon de navegador en HTML. El tamaño más común para crear un favicon es 16x16 píxeles. Sin embargo, también pueden aparecer en dimensiones un poco más grandes (32x32). Casi todos los navegadores modernos admiten imágenes PNG pero si nos encontramos con problemas, por ejemplo con navegadores como IE10 y sus versiones anteriores, podemos utilizar imágenes ICO.
+      - El icono (llamado favicon) de la página. Podemos usar la etiqueta < link> y el atributo rel="icon" para agregar un favicon de navegador en HTML. El tamaño más común para crear un favicon es 16x16 píxeles. Sin embargo, también pueden aparecer en dimensiones un poco más grandes (32x32). Casi todos los navegadores modernos admiten imágenes PNG pero si nos encontramos con problemas, por ejemplo con navegadores como IE10 y sus versiones anteriores, podemos utilizar imágenes ICO.
 
-        - El enlace con otros ficheros relacionados con el documento (hojas de estilo, codigo Javascrip…), etc.
+      - El enlace con otros ficheros relacionados con el documento (hojas de estilo, codigo Javascrip…), etc.
     
     - < body>< /body> — el elemento < body>. Encierra todo el contenido que deseas mostrar a los usuarios web que visiten tu página, ya sea texto, imágenes, videos, juegos, pistas de audio reproducibles, y demás. Los elementos HTML descendientes de < body> se pueden clasificar en:
 
-        - Elementos de bloque (block elements). Son grandes estructuras que contienen otros elementos de bloque, elementos de línea o texto. Normalmente el navegador los muestra como bloques independientes y separa un bloque de otro con una línea en blanco. Son por ejemplo los títulos, los párrafos, las listas o las tablas.
+    - Elementos de bloque (block elements). Son grandes estructuras que contienen otros elementos de bloque, elementos de línea o texto. Normalmente el navegador los muestra como bloques independientes y separa un bloque de otro con una línea en blanco. Son por ejemplo los títulos, los párrafos, las listas o las tablas.
 
 
-        - Elementos de línea (inline elements). Son pequeñas estructuras que representan o describen pequeños trozos de texto o datos. Pueden contener solo texto u otros elementos de línea. Normalmente el navegador los muestra en línea uno tras otro dentro del bloque que los contiene. Son un ejemplo los hiperenlaces, las citas o las imágenes.
+    - Elementos de línea (inline elements). Son pequeñas estructuras que representan o describen pequeños trozos de texto o datos. Pueden contener solo texto u otros elementos de línea. Normalmente el navegador los muestra en línea uno tras otro dentro del bloque que los contiene. Son un ejemplo los hiperenlaces, las citas o las imágenes.
 
     Si lo comparamos con un procesador de textos, podemos pensar en un párrafo como un elemento de bloque y una palabra enfatizada en negrita como un elemento de línea.
 
@@ -358,3 +358,104 @@ Introducción a lenguaje de marcas “Markdown”, usado por GitHub
     3. Encuentra y añade cualquiera de los iconos GRATUITOS al proyecto
 
     Busca entre los iconos de la web de Fontawesome los que necesites y añade el nombre de icono y estilo con sus clases CSS dengro una etiqueta HTML <i> que ya te proporciona directamente la web.
+
+	
+	## 3. CSS ##
+El CSS, nos ayudará a dar forma a nuestros documentos HTML, se encargará de la parte estética.
+
+### UBICACIÓN DE LAS PROPIEDADES CSS ###
+1. EN LA ETIQUETA
+
+Usando el atributo _style_ de la siguiente manera
+\<p style="text-align: center; color: ">
+
+
+2. EN LA CABECERA DEL DOCUMENTO HMTL
+
+Usaremos el mismo atributo que antes, pero en el _head_. Esto nos servirá cuando queramos que más de un elemento tenga la misma estética, como por ejemplo que todos los titulos sean rosas y esten alineados en el centro.
+
+
+3. EN UN DOCUMENTO EXTERNO
+
+Crearemos un nuevo documento con la extensión _.css_
+En el head de nuestro documento HTML pondremos <link rel="stylesheet" href="estils.css" type="text/css"> y en nuestro fichero estils.css p{ text.align:center; color:blue; }.
+Usando esta última forma podemos reutilizar nuestro fichero CSS para diferentes documentos HTML.
+
+### SINTAXIS BÁSICA ###
+__1. SINTAXIS GENÉRICA__
+
+selector {
+    declaración1
+    declaración2
+}
+
+
+__2. AGRUPAR SELECTORES__
+
+ Por ejemplo, si queremos aplicar el mismo color a los titulos y subtitulos podemos escribir:
+ h1,h2 {color:azul}
+
+__3. TIPOS DE SELECTORES__
+
++ SELECTOR DE CLASE
+
+    Dentro de cada etiqueta que queramos que tengan el mismo estilo escribiremos class="NombreClase", y en el head escribiremos _.NombreClase_ 
+    
+
++ SELECTOR DE ID
+
+    Es parecido al selector de clase, solo tenemos que escribir id="NombreID", dentro de la etiqueta, y en head escribiremos _#NombreID_
+
+
++ SELECTOR UNIVERSAL
+
+    Este tipo de selector selecciona todos los elementos de la página para aplicar estilos.
+    Por ejemplo:
+    * { border: 1px solid #000000}, para poner que toda la pagina tenga un borde negro liso de 1 píxel.
+ 
++ SELECTOR DE ATRIBUTOS
+
+    Selecciona elementos en función del atributo, por ejemplo si queremos que todas las fotos con el atributo _alt_ tenga un borde negro escribiremos:
+    img [alt] {border: 1px solid }
+
++ SELECTOR DE HIJOS
+
+    Sirve para seleccionar elementos concretos y aplicarles un estilo especifico. Por ejemplo: 
+    h1>strong { color:rosa }, hará que solo los títulos _h1_ que tengan el selector de strong sean rosas.
+
++ SELECTOR DE DESCENDIENTES
+
+    Hace que los selectores de descendientes seleccionen los elementos pertinentes en cualquier punto de la jerarquía del elemento
+
+
++ PSEUDOCLASES
+
+    Sirve para definir estilos a los diversos estados de los elementos, como por ejemplo, indicar que es un link.
+    Para ello escribiremos: 
+    a:link {color:green}
+
+### MÁRGENES, BORDES Y RELLENO ###
++ MARGIN
+
+Para definir los márgenes, escribiremos _margin-_, y dependiendo cual queramos definir: -top, -right, -bottom, -left.
+
++ BORDER
+
+Al borde, le podemos cambiar, la anchura, el estilo y el color.
+Podemos definirlo todo junto
+
+O por separado
+border-right: [anchura, color, estilo]
+border-top: [anchura, color, estilo]
+...
+
++ PADDING
+
+Es el relleno de nuestro documento y es para definir cuanto ocupará el contenido de nuestro documento. Funciona igual que el margin: padding-top, padding-bottom,...
+
+
+### GOOGLE FONTS ###
+Con CSS, podemos cambiar la tipografía a nuestro texto, para ellos usaremos la web de google fonts.
+Seleccionaremos la tipografía que deseemos
+Copiaremos el <link> en el head, encima de style
+Y el _CSS rules to specify families_ en style donde queramos que se aplique ese estilo
